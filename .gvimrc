@@ -213,7 +213,6 @@ vnoremap <C-S> <C-C>:update<CR>
 inoremap <C-S> <C-O>:update<CR>
 
 autocmd VimEnter * NERDTree
-map <F2> :NERDTree Z:\wallstdomains\fidelity-project-1<CR>
 
 function! s:swap_lines(n1, n2)
     let line1 = getline(a:n1)
