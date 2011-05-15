@@ -251,6 +251,9 @@ set foldmethod=marker
 nnoremap <space> za
 
 
+" Tab to switch around MBE buffers
+let g:miniBufExplMapCTabSwitchWindows = 1
+
 " Search mappings: These will make it so that going to the next one in a
 " search will center on the line it's found in.
 map N Nzz
